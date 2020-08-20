@@ -1,0 +1,164 @@
+<DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" 
+    Unicode="U+1F334, UTF-8: F0 9F 8C B4" 
+    Unicode= "U+1F332, UTF-8: F0 9F 8C B2" 
+    Unicode= "U+00A9"  
+    Unicode="U+00A9, UTF-8: C2 A9" 
+    Unicode="U+1F440, UTF-8: F0 9F 91 80"
+    Unicode="U+00F7, UTF-8: C3 B7"
+    Unicode="U+30FB, UTF-8: E3 83 BB"
+    Unicode="U+03B8, UTF-8: CE B8">
+    <title>Factoring Polynomials</title>
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Pangolin|Shadows+Into+Light|Fresca|Architects+Daughter|Amatic+SC|Caveat|Patrick+Hand|Kalam|Handlee|" rel="stylesheet">
+    <link rel="stylesheet" HREF="./styles.css">
+    <meta name="description" content="Factoring">
+    <meta name="keywords" content="Polynomials">
+    <meta name="author" content="JK Williams">
+</head>
+<body>
+    <div id="div1">
+        <h1>
+            Factoring Polynomials
+        </h1>
+    </div>
+    <div>
+        <p>
+            A polynomial is the term used to describe graphs of functions that are of degree two or higher. For example:
+            <ol>
+                <li>
+                    y = ax<sup>2</sup>
+                </li>
+                <li>
+                    y = ax<sup>3</sup>
+                </li>
+                <li>
+                    y = ax<sup>4</sup>
+                </li>
+                <li>
+                    y = ax<sup>5</sup>
+                </li>
+                <li>
+                    ...and so on.
+                </li>
+            </ol>
+        </p>
+    </div>
+    <div>
+        <p>
+            The basic shape of each function's graph depends on the exponent of the variable. The exponent describes the maximum number of times the graph crosses the x-axis. 
+            <ol>
+                <li>
+                    y = ax<sup>2</sup> crosses the x-axis 2 times
+                </li>
+                <li>
+                    y = ax<sup>3</sup> crosses the x-axis 3 times
+                </li>
+                <li>
+                    y = ax<sup>4</sup> crosses the x-axis 4 times
+                </li>
+                <li>
+                    y = ax<sup>5</sup> crosses the x-axis 5 times
+                </li>
+                <li>
+                    ...and so on.
+                </li>
+            </ol>
+        </p>
+    </div>
+    <div>
+        <p>
+            Let's look at the graph of each function:
+            <ol>
+                <li>
+                    y = ax<sup>2</sup><br>
+                    <img src="images/pic1.png" alt="x^2" id="pic1" /> 
+                </li>
+                <li>
+                    y = ax<sup>3</sup><br> 
+                    <img src="images/pic2.png" alt="x^3" id="pic2" /> 
+                </li>
+                <li>
+                    y = ax<sup>4</sup><br> 
+                    <img src="images/pic3.png" alt="x^4" id="pic3" /> 
+                </li>
+                <li>
+                    y = ax<sup>5</sup><br>
+                    <img src="images/pic4.png" alt="x^5" id="pic4" /> 
+                </li>
+            </ol>
+            Each time a graph crosses the x-axis the point in which it intersects the axis is called an x-intercept of the equation. Each of the factors are represented using the formula (x - b) where b is the x-intercept.<br>
+            Each x-intercept generates a factor of the equation. A graph that crosses the x-axis 2 times will have a function f(x) = (x - b<sub>1</sub>)(x - b<sub>2</sub>). A graph that crosses the x-axis three times will have the function f(x) = (x - b<sub>1</sub>)(x - b<sub>2</sub>)(x - b<sub>3</sub>). A graph that crosses the x-axis 4 times will have a function f(x) = (x - b<sub>1</sub>)(x - b<sub>2</sub>)(x - b<sub>3</sub>)(x - b<sub>4</sub>) and so on.
+        </p>
+    </div>
+    <div>
+        <p>
+            Let's look at a few examples.<br>
+            Given the graph of a function, state the x-intercepts.<br>
+            <img src="images/pic5.png" alt="ex" id="pic5" /><br>
+            The x-intercepts have been highlighted in red. This graph has x-intercepts of b<sub>1</sub> = -7, b<sub>2</sub> = 3, b<sub>3</sub> = 6. Substituting the points into the function f(x) = (x - b<sub>1</sub>)(x - b<sub>2</sub>)(x - b<sub>3</sub>) gives us the following: f(x) = (x + 7)(x - 3)(x - 6). Notice when substituting a negative value for b, it will turn the subtract sign in to a plus sign: (x - (-7)) is equal to (x + 7). When substituting positive values for b, the subtract sign remains unchanged: (x - (3)) equals (x - 3) and (x - (6)) equals (x - 6). 
+        </p>
+    </div>
+    <div>
+        <p>
+            Given the graph, state the x-intercepts from left to right.<br>
+            <img src="images/pic6.png" alt="ex" id="pic6" /><br>
+            <input type="text" id="a1" />
+            <input type="text" id="b1" />
+            <input type="text" id="c1" />
+            <input type="text" id="d1" /><br>
+            <button type="submit" id="myBtn1" onclick="myCalc()">Submit</button>
+            <p id="demo"></p>
+        </p>
+    </div>
+    <div>
+        <p>
+            Given the graph, state the x-intercepts from left to right.<br>
+            <img src="images/pic7.png" alt="ex" id="pic7" /><br>
+            <input type="text" id="a2" />
+            <input type="text" id="b2" />
+            <input type="text" id="c2" />
+            <button type="submit" id="myBtn2" onclick="myCalc2()">Submit</button>
+            <p id="demo2"></p>
+        </p>
+    </div>
+    <div>
+        <p>
+            Given the graph of a function, fill in the equation of the graph.<br>
+            <img src="images/pic7.png" alt="p6" id="pic7" /><br>
+        </p>
+        <p id="ex2">
+            f(x) = (x - <input type="text" id="f1" />)(x - <input type="text" id="f2" />)(x - <input type="text" id="f3" />)<br>
+            <button type="submit" id="myBtn3" onclick="myCalc3()">Submit</button>
+            <p id="demo3"></p>
+        </p>
+    </div>
+    <div>
+        <p>
+            Given the graph of a function, fill in the equation of the graph.<br>
+            <img src="images/pic8.png" alt="p8" id="pic8" /><br>
+        </p>
+        <p id="ex3">
+            f(x) = (x - <input type="text" id="g1" />)(x - <input type="text" id="g2" />)(x - <input type="text" id="g3" />)<br>
+            <button type="submit" id="myBtn4" onclick="myCalc4()">Submit</button>
+            <p id="demo4"></p>
+        </p>
+    </div>
+    <div>
+        <p>
+            Given the graph of a function, fill in the equation of the graph.<br>
+            <img src="images/pic9.png" alt="p9" id="pic9" /><br>
+        </p>
+        <p id="ex4">
+            f(x) = (x - <input type="text" id="h1" />)(x - <input type="text" id="h2" />)(x - <input type="text" id="h3" />)(x - <input type="text" id="h4" />)(x - <input type="text" id="h5" />)<br>
+            <button type="submit" id="myBtn5" onclick="myCalc5()">Submit</button>
+            <p id="demo5"></p>
+        </p>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        ©2020 All Things Math<br>All Rights Reserved
+    </footer>
+</body>
+</html>

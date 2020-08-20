@@ -1,0 +1,165 @@
+body {
+    background-color: grey;
+    margin: 15px 45px 15px 25px;
+    font-family: "Architects Daughter";
+    letter-spacing: 3px;
+    color: tomato;
+    font-size: 1.5rem;
+}
+h1 {
+    color: black;
+    text-decoration: underline;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px tomato;
+    text-align: center;
+}
+#div1 {
+    width: 30%;
+    height: auto;
+    border: 1px red solid;
+    margin: 15px 35% 15px 35%;
+    background-image: linear-gradient(lightgrey, aqua);
+}
+div {
+    width: 80%;
+    height: auto;
+    border: 1px black solid;
+    outline: 2px tomato solid;
+    margin: 15px 10% 15px 10%;
+    background-image: linear-gradient(lightgrey, aqua);
+    padding: 20px;
+}
+#pic1, #pic2, #pic3, #pic4, #pic5 {
+    width: 30%;
+    height: auto;
+    margin: 15px 35% 15px 35%;
+    border: 1px black solid;
+    outline: 2px tomato solid;
+}
+#pic6, #pic7, #pic8, #pic9 {
+    width: 30%;
+    height: auto;
+    margin: 15px 35% 25px 35%;
+    border: 1px black solid;
+    outline: 2px tomato solid;
+}
+#a1, #b1, #c1, #d1 {
+    width: 70px;
+    height: 50px;
+    color: black;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    padding: 5px;
+    text-align: center;
+    margin-left: 190px;
+    font-size: 1.2rem;
+    font-family: "Architects Daughter";
+}
+#a2, #b2, #c2 {
+    width: 70px;
+    height: 50px;
+    color: black;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    padding: 5px;
+    text-align: center;
+    margin-left: 253px;
+    font-size: 1.2rem;
+    font-family: "Architects Daughter";
+}
+#ex2, #ex3, #ex4 {
+    text-align: center;
+}
+#f1, #f2, #f3 {
+    width: 70px;
+    height: 50px;
+    color: black;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: "Architects Daughter";
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+}
+#g1, #g2, #g3 {
+    width: 70px;
+    height: 50px;
+    color: black;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: "Architects Daughter";
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+}
+#h1, #h2, #h3, #h4, #h5 {
+    width: 70px;
+    height: 50px;
+    color: black;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: "Architects Daughter";
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+}
+#myBtn1, #myBtn2, #myBtn3, #myBtn4, #myBtn5 {
+    width: 20%;
+    height: 50px;
+    color: tomato;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    text-align: center;
+    font-family: "Architects Daughter";
+    font-size: 1.5rem;
+    background-color: lightgrey;
+    margin: 20px 40% 0px 40%;
+}
+#demo, #demo2 {
+    width: 17%;
+    height: 30px;
+    color: tomato;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    text-align: center;
+    font-family: "Architects Daughter";
+    font-size: 1.3rem;
+    background-color: lightgrey;
+    margin: 15px 40% 20px 40%;
+    padding: 20px;
+}
+#demo3, #demo4 {
+    width: 40%;
+    height: 30px;
+    color: tomato;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    text-align: center;
+    font-family: "Architects Daughter";
+    font-size: 1.3rem;
+    background-color: lightgrey;
+    margin: 15px 30% 20px 30%;
+    padding: 20px;
+}
+#demo5 {
+    width: 50%;
+    height: 30px;
+    color: tomato;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    text-align: center;
+    font-family: "Architects Daughter";
+    font-size: 1.3rem;
+    background-color: lightgrey;
+    margin: 15px 25% 20px 25%;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    font-size: 1rem;
+    color: aqua;
+    text-shadow: 1px 1px black;
+}
